@@ -1,16 +1,58 @@
 *{
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Jost', sans-serif;
+    
 }
 body{
     margin: 0;
     padding: 0;
 }
-.Navbar{
- padding: 2em ;
- juss
- 
+/* nav{
+    margin-top: 2em;
+   height: 80px;
+   width: 100%;
 }
-.logo_img{
- height: 50px;
- 
+nav ul{
+display: flex;
+justify-content: space-between;
+}
+.logo{
+    height: 50px;
+    
+} */
+.container{
+    width: 100%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+  
+    
+}
+.logo{
+    width: 180px;
+    
+}
+nav{
+    flex: 1;
+    text-align: right;
+   
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    text-decoration: none;
+    
+}
+.navbar_contant{
+    color: black;
 }
