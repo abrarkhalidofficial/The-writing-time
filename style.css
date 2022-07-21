@@ -104,23 +104,100 @@ nav ul li {
 height: 650px;
 width: 100%;
 border-radius: 30px;
-/* position: relative;  */
+
+
 }
 .header_right{
   position: relative;
+ 
+  
 }
 .para__head{
   position: absolute;
   top: 70%;
   left: 40px;
   color: white;
+
 }
 .header__heading{
   
   font-size: 40px;
-  background: linear-gradient(0,0,0,0,0);
+  
 
 }
 .header__pra{
   font-size: 15px;
+}
+.header__overlay{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,.5),#111b1a);
+}
+
+.about_us{
+  width: 100%;
+  padding-top: 80px ;
+}
+.about_title{
+  text-align: center;
+  position: relative;
+
+  
+}
+
+.about_title h1{
+  font-size: 50px;
+
+}
+.About_us_span{
+  width: 145px;
+  height:6px;
+  margin-bottom: 100px;
+   margin-left: 80px;
+  background: #0daa8d;
+  border-radius: 30px;
+  display: inline-flex;
+  
+}
+.about_title_pra{
+top: 0;
+left: 0;
+padding-top: 90px;
+width: 100%;
+margin: 0 auto;
+position: absolute;  
+}
+
+ .About_us_section{
+  width: 70%;
+   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   text-align: center;
+
+}
+.About__left__section {
+  flex-basis: 50%;
+  text-align: left;
+  /* background-color:#72217e ; */
+}
+.About__us__pic{
+  flex-basis: 50%;
+  margin: auto;
+}
+.About__us__pic img{
+  width: 70%;
+  border-radius: 10px;
+}
+.About__left__section h1{
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 100;
+  color: #72217e;
+
+
 }
