@@ -444,7 +444,7 @@ align-items: center;
 .contact__us__container__left{
   min-height: 615px;
   width: 70%;
-  padding-left: 2em;
+  padding-left: 4em;
   /* height: 60vh; */
   background-color: #d6dbdb;
 }
@@ -499,7 +499,7 @@ border: none;
   border: none;
   background-color:#0daa8d;
   color: white;
-  padding: .4em;
+  padding: 1em;
   /* margin-top: 3em; */
   /* align-items: center; */
   cursor: pointer;
@@ -522,8 +522,8 @@ border: none;
   padding-left: 3em;
   padding-bottom: 4em;
   position: relative;
-margin-left: -550px;
-width: 30%;
+margin-left: -700px;
+width: 25%;
 }
 .card__heading{
   font-size: 40px;
