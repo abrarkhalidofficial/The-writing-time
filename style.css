@@ -39,6 +39,10 @@ nav ul li {
 .navbar_contant {
   color: black;
 }
+.header{
+  max-width: 1440px;
+  margin: 0 auto;
+}
 .header_left {
   width:30%;
 }
@@ -248,6 +252,8 @@ position: absolute;
 .feacture{
   padding-top: 50px;
   padding-bottom: 50px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .feacture_rows{
   width: 80%;
@@ -361,6 +367,7 @@ display: inline-flex;
       left: 50%;
       /* transform: translate(-50%); */
       /* opacity: 0; */
+      padding: 1em;
       transition: all .5s ease-in-out;
       
    }
